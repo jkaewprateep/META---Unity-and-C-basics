@@ -266,6 +266,8 @@ public class Movement : MonoBehaviour
 
 ### Movement.cs - custom action - visibility - key space ###
 
+🐑💬 ➰ Visibility affects application from user keypress interactions. </br>
+
 ```
 public class RendererEnabler : MonoBehaviour
 {
@@ -282,6 +284,8 @@ public class RendererEnabler : MonoBehaviour
 ```
 
 ### SphereMaker.cs - custom action - create object - key space ###
+
+🐑💬 ➰ Duplicate object for same property object created with target position on the same domain, ```random function``` create distribution effects of the objects created by this function. </br>
 
 ```
 public class SphereMaker : MonoBehaviour
@@ -314,6 +318,8 @@ public class SphereMaker : MonoBehaviour
 
 ### TestScript.cs - custom action - camera tracking ###
 
+🐑💬 ➰ Camera tracking scripts for object observation or velocity object access the primary object. </br>
+
 ```
 public class TestScript : MonoBehaviour
 {
@@ -345,6 +351,8 @@ public class TestScript : MonoBehaviour
 ```
 
 ### ColorChanger.cs - custom action - property change - collisions ###
+
+🐑💬 ➰ The ```collision``` enter effects method by object property changes and rendering. </br>
 
 ```
 public class ColorChanger : MonoBehaviour
@@ -390,6 +398,8 @@ public class ColorChanger : MonoBehaviour
 
 ### DestroyOutOfBounds.cs - custom action - game environment scopes ###
 
+🐑💬 ➰ Range position effects. </br>
+
 ```
 public class DestroyOutOfBounds : MonoBehaviour
 {
@@ -415,6 +425,8 @@ public class DestroyOutOfBounds : MonoBehaviour
 
 ### DetectCollisionsn.cs - custom action - destroy object - collisions ###
 
+🐑💬 ➰ On ```Collider``` event trigger. </br>
+
 ```
 public class DetectCollisions : MonoBehaviour
 {
@@ -427,6 +439,8 @@ public class DetectCollisions : MonoBehaviour
 ```
 
 ### MoveForward.cs - custom action - initial speed - parameterizes ###
+
+🐑💬 ➰ Create instance velocity speed movement effects for the assigning object. </br>
 
 ```
 public class MoveForward : MonoBehaviour
@@ -442,6 +456,8 @@ public class MoveForward : MonoBehaviour
 ```
 
 ### PlayerController.cs - custom action - position transform - parameterizes ###
+
+🐑💬 ➰ Apply the effects of position and rotation. </br>
 
 ```
 public class PlayerController : MonoBehaviour
@@ -475,6 +491,8 @@ public class PlayerController : MonoBehaviour
 ```
 
 ### SpawnManager.cs - custom action - spawn range positions - parameterizes ###
+
+🐑💬 ➰ Spawn in range of the object animation, rotation, and delay. </br>
 
 ```
 public class SpawnManager : MonoBehaviour
