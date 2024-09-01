@@ -284,3 +284,35 @@ public class SphereMaker : MonoBehaviour
     }
 }
 ```
+
+### TestScript.cs - custom action - camera tracking ###
+
+```
+public class TestScript : MonoBehaviour
+{
+    public float torque;
+    public float velocity;
+    public Rigidbody rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void FixedUpdate()
+    {
+        float turn = Input.GetAxis("Horizontal");
+        rb.AddTorque(Vector3.up * torque * turn);
+
+        var vertical = Input.GetAxis("Vertical");
+
+        // float turn = Input.GetAxis("Horizontal");
+        // rb. AddTorque(Vector3.up * torque * turn);
+        // rb.AddForce(Vector3.forward * velocity * vertical);
+        rb.AddForce(Camera.main.transform.forward * velocity * vertical);
+        rb.AddForce(Camera.main.transform.up * velocity * vertical);
+        // rb.AddForce(Camera.main.transform.up * velocity * vertical) 
+        // rb.AddForce(Camera.main.transform.forward * velocity * vertical); 
+    }
+}
+```
