@@ -104,7 +104,7 @@ public class PlayerController3 : MonoBehaviour
 
 ### Rotation.cs - custom action - vector ###
 
-🐑💬 ➰ Rotation action on the rotation domain is applied ```degrees``` or ```angular degrees by its method otherwise uses a transformation function. </br> 
+🐑💬 ➰ Rotation action on the rotation domain is applied ```degrees``` or ```angular degrees``` by its method otherwise uses a transformation function. </br> 
 
 ```
 public class PlatformRotate : MonoBehaviour { 
