@@ -164,3 +164,15 @@ public class BulletCreator : MonoBehaviour
     }
 }
 ```
+
+### DestroyOnClick.cs - custom action - destroy object - key space ###
+
+```
+public class DestroyOnClick : MonoBehaviour
+{
+    void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+}
+```
