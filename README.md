@@ -46,3 +46,16 @@ public class PlayerController : MonoBehaviour
     }
 }
 ```
+
+### PlayerController.cs - parameterizes ###
+
+```
+public class PlayerController2 : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {
+        transform.Translate(Vector3.forward * Time.deltaTime * 21);        
+    }
+}
+```
