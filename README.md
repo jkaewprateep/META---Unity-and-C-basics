@@ -253,3 +253,34 @@ public class RendererEnabler : MonoBehaviour
     }
 }
 ```
+
+### SphereMaker.cs - custom action - create object - key space ###
+
+```
+public class SphereMaker : MonoBehaviour
+{
+    public GameObject sphere;
+    public int numberOfSpheres = 4;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        for (int i = 0; i < numberOfSpheres; i = i + 1)
+        {
+            var duplicateSphere = GameObject.Instantiate(sphere);
+            duplicateSphere.transform.position = new Vector3(i, 0, 0);
+        }
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            var duplicateSphere = GameObject.Instantiate(sphere);
+            duplicateSphere.transform.position = new Vector3(Random.Range(-4, 4), Random.Range(-4, 4), 0);
+            Camera.main.transform.LookAt(duplicateSphere.transform);
+        }
+    }
+}
+```
