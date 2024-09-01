@@ -316,3 +316,55 @@ public class TestScript : MonoBehaviour
     }
 }
 ```
+
+### ColorChanger.cs - custom action - property change - collisions ###
+
+```
+public class ColorChanger : MonoBehaviour
+{
+    public GameObject spherePrefab;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        foreach (ContactPoint contact in collision.contacts)
+        {
+            // var collision_colour = contact.color;
+            var collision_point = contact.point;
+            var collision_type = contact.normal;
+            // var collision_sphere = contact.collider;
+            
+            
+
+            GameObject duplicateSphere = GameObject.Instantiate(spherePrefab);
+            //
+            var shpere = duplicateSphere.GetComponent<Collider>();
+            duplicateSphere.GetComponent<Renderer>().material.color = Color.red;
+            // duplicateSphere.collider = collision.collider;
+
+
+            var colour_code = Random.Range(0, 3);
+            switch(colour_code)
+            {
+                case 0 : GetComponent<Renderer>().material.color = Color.red;
+                    break;
+                case 1 : GetComponent<Renderer>().material.color = Color.blue;
+                    break;
+                case 2 : GetComponent<Renderer>().material.color = Color.green;
+                    break;
+                case 3 : GetComponent<Renderer>().material.color = Color.red;
+                    break;
+            }        
+
+            // Debug.DrawRay(contact.point, contact.normal, Color.white);
+        }
+        // if (collision.relativeVelocity.magnitude > 2)
+        //     audioSource.Play();
+    }
+}
+```
