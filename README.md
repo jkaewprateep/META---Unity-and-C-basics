@@ -27,11 +27,6 @@ public class PlayerController : MonoBehaviour
     private float turnSpeed = 25.0f;
     private float horizontalInput; 
     private float forwardInput;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -84,12 +79,6 @@ public class PlatformRotate : MonoBehaviour {
 
     public Vector3 rotateChange;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    
-    }
-
     // Update is called once per frame
     void Update()
     {
@@ -104,12 +93,6 @@ public class PlatformRotate : MonoBehaviour {
 public class TrackPosition : MonoBehaviour {
     
     public Vector3 positionChange;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -324,12 +307,6 @@ public class ColorChanger : MonoBehaviour
 {
     public GameObject spherePrefab;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     void OnCollisionEnter(Collision collision)
     {
         foreach (ContactPoint contact in collision.contacts)
@@ -337,10 +314,8 @@ public class ColorChanger : MonoBehaviour
             // var collision_colour = contact.color;
             var collision_point = contact.point;
             var collision_type = contact.normal;
-            // var collision_sphere = contact.collider;
+            // var collision_sphere = contact.collider;          
             
-            
-
             GameObject duplicateSphere = GameObject.Instantiate(spherePrefab);
             //
             var shpere = duplicateSphere.GetComponent<Collider>();
