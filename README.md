@@ -454,3 +454,31 @@ public class PlayerController : MonoBehaviour
 }
 
 ```
+
+### SpawnManager.cs - custom action - spawn range positions - parameterizes ###
+
+```
+public class SpawnManager : MonoBehaviour
+{
+    public GameObject[] animalPrefebs;
+    // public int animalIndex;
+    private float spawnRangeX = 20;
+    private float spawnPosZ = 20;
+    private float startDelay = 2;
+    private float spawnInterval = 1.5f;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        InvokeRepeating("SpawnRandomAnimal", startDelay, spawnInterval);
+    }
+
+    void SpawnRandomAnimal()
+    {
+        int animalIndex = Random.Range(0, animalPrefebs.length);
+        Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
+
+        Instantiate(animalPrefebs[animalIndex], spawnPos, animalPrefebs[animalIndex].transform.rotation);
+    }
+}
+```
