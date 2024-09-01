@@ -118,3 +118,49 @@ public class TrackPosition : MonoBehaviour {
     }
 }
 ```
+
+### AlignObjects.cs - custom action - transform position ###
+
+```
+public class AlignObjects: MonoBehaviour
+{
+    public GameObject[] objectsToAlign; 
+    public float spacing = 1;
+
+    // Start is called before the first frame update
+    void Start()
+	{
+        for (var i = 0; i < objectsToAlign.Length; i++)
+            {
+                objectsToAlign[i].transform.position = new Vector3(i* spacing, 0, 0);
+            }
+    }
+}
+```
+
+### BulletCreator.cs - custom action - key space ###
+
+```
+public class BulletCreator : MonoBehaviour
+{
+    public GameObject bullet;
+
+    void Start()
+    {
+        Invoke("ShootBullet", 2);
+    }
+    void ShootBullet()
+    {
+        var newBullet = Instantiate(bullet);
+        newBullet.transform.position = new Vector3(0, 10, 0);
+        Destroy(newBullet, 5);
+    }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            ShootBullet();
+        }
+    }
+}
+```
