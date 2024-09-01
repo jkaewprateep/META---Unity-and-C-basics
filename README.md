@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
 }
 ```
 
-### PlayerController.cs - parameterizes ###
+### PlayerController.cs - time delta ###
 
 ```
 public class PlayerController2 : MonoBehaviour
@@ -56,6 +56,23 @@ public class PlayerController2 : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * 21);        
+    }
+}
+```
+
+### PlayerController.cs - parameterizes ###
+
+```
+public class PlayerController3 : MonoBehaviour
+{
+    public GameObject player;
+    private Vector3 Offset = new Vector3(0, 5, -7);
+
+    // Update is called once per frame
+    void Update()
+    {
+        // Offset the camera behide the player by adding the player locations;
+        transform.position = player.transform.position + Offset;
     }
 }
 ```
