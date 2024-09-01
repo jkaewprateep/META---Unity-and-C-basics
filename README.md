@@ -32,6 +32,10 @@ META - Unity and C# basics
 
 ### PlayerController.cs ###
 
+🐑💬 ➰ By the public variable allows parameters for the class variable to reuse the same variable inside the class and utilize the effects, private variables are similar to the same rules and ```C# language programming``` . </br>
+🦭💬 There are rotation axis measurements and similar axis measurements for object description and Unity provided ```transform functions``` to perform rotation axis and similar axis. Continuous movement can use a time ticker or physical force apply. </br>
+🧸💬 The rotation axis is easy to use with an angle while the symmetric axis is easy to use with the position then the ```transform functions``` is very useful you can work without converting values between these two axises. </br>
+
 ```
 using System.Collections;
 using System.Collections.Generic;
