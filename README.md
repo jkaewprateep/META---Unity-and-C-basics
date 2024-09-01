@@ -27,6 +27,9 @@ META - Unity and C# basics
     <img width="45%" src="https://github.com/jkaewprateep/META---Unity-and-C-basics/blob/main/web04.png"> </br>
 </p>
 
+🐑💬 ➰ Heart beating with physical property and creating games using AR by Unity program possible with the provided tools and C# programming languages but you need to know the basics of class inheritance programming styles because the AR development platform will utilize of user create objects and render for the same screen rendering. </br>
+🐐💬 Applying effects, gravity and boundary of the image or collisions creates games and simulation development environments where you can specific mass, position, and axis of the object to start the collision effects when there are one or more objects in the same screen aligned or pass-though the target collision axes and position. </br>
+
 ### PlayerController.cs ###
 
 ```
