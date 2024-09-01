@@ -65,6 +65,9 @@ public class PlayerController : MonoBehaviour
 
 ### PlayerController.cs - time delta ###
 
+🐑💬 ➰ Continuous movement by ```time delta``` and the ```speed``` effects on the rotation axis forward, make the object model rotate moving forward with the speed effect provided and the class can change the direction of the object ```forward``` and ```backward``` . </br>
+🧸💬 The ```time delta``` is a good object for continuous actions, Unity allows to use of the time delta anywhere or from import reference and instance but as a symmetric axis and original source on the screen the object they are working on the same time scalings. </br>
+
 ```
 public class PlayerController2 : MonoBehaviour
 {
