@@ -368,3 +368,28 @@ public class ColorChanger : MonoBehaviour
     }
 }
 ```
+
+### DestroyOutOfBounds.cs - custom action - game environment scopes ###
+
+```
+public class DestroyOutOfBounds : MonoBehaviour
+{
+    private float topBound = 10;
+    private float lowerBound = -10;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if(transfrom.position.z > topBound)
+        {
+            Destroy(gameObject);
+        }
+
+        if(transfrom.position.z < lowerBound)
+        {
+            Destroy(gameObject);
+            Debug.log("Game Over!!!");
+        }
+    }
+}
+```
