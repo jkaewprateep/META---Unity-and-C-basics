@@ -17,6 +17,9 @@ META - Unity and C# basics
 
 </br>
 
+🧸💬 Similar to model and data visualization augmented reality is one technology for transferring learning knowledge, experience, entertainment, and user interaction feedback into reachable and adaptive media. In image processing and data science, augmented reality utilizes the same data by applying augment functions to make it similar or different and have good effects on machine learning or learners. In AR, the object or model can be applied by the mathematical function to create a visualization experience and better effects in communications and entertainment. </br>
+👧💬 🎈 If the data model generates of vector image then data augmenting is to create rotation, scales, axis and alignment, colours, similarity and contrast, and physical property of the vector image applied by scales that provide good effects for the learner. In the lesson, we will see examples of rendering models with materials property and physical property applying custom functions to create effects of physical location change, collision effects, bouncing, random spawns, change in property and instance, and removing objects with provided effects and entertainments. </br>
+
 <p align="center" width="100%">
     <img width="45%" src="https://github.com/jkaewprateep/META---Unity-and-C-basics/blob/main/web01.png">
     <img width="45%" src="https://github.com/jkaewprateep/META---Unity-and-C-basics/blob/main/web02.png">
