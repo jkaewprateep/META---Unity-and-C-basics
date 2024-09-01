@@ -104,6 +104,8 @@ public class PlayerController3 : MonoBehaviour
 
 ### Rotation.cs - custom action - vector ###
 
+🐑💬 ➰ Rotation action on the rotation domain is applied ```degrees``` or ```angular degrees by its method otherwise uses a transformation function. </br> 
+
 ```
 public class PlatformRotate : MonoBehaviour { 
 
@@ -119,6 +121,8 @@ public class PlatformRotate : MonoBehaviour {
 
 ### Default.cs - custom action - position ###
 
+🐑💬 ➰ Position axis action by incremental of the position value by its symmetric domain. </br> 
+
 ```
 public class TrackPosition : MonoBehaviour {
     
@@ -133,6 +137,8 @@ public class TrackPosition : MonoBehaviour {
 ```
 
 ### AlignObjects.cs - custom action - transform position ###
+
+🐑💬 ➰ Transformation is the application of the simple input objects and their effects. </br> 
 
 ```
 public class AlignObjects: MonoBehaviour
@@ -152,6 +158,8 @@ public class AlignObjects: MonoBehaviour
 ```
 
 ### BulletCreator.cs - custom action - key space ###
+
+🐑💬 ➰ Create functions for the model object effects that can recall overall the project. </br> 
 
 ```
 public class BulletCreator : MonoBehaviour
@@ -180,6 +188,8 @@ public class BulletCreator : MonoBehaviour
 
 ### DestroyOnClick.cs - custom action - destroy object - key space ###
 
+🐑💬 ➰ Remove the object from the domain. </br>
+
 ```
 public class DestroyOnClick : MonoBehaviour
 {
@@ -191,6 +201,8 @@ public class DestroyOnClick : MonoBehaviour
 ```
 
 ### ExampleBehaviourScript.cs - custom action - change property - key space ###
+
+🐑💬 ➰ Accepted the key press and performed actions by its conditions to create better effects, change of the object property and render display determined by the ```user key press interactions``` . </br>
 
 ```
 public class ExampleBehaviourScript : MonoBehaviour
@@ -217,6 +229,8 @@ public class ExampleBehaviourScript : MonoBehaviour
 ```
 
 ### Movement.cs - custom action - change position - key space ###
+
+🐑💬 ➰ Keypress conditions apply position effect with time and velocity speed, parameterized speed variable. </br>
 
 ```
 public class Movement : MonoBehaviour
