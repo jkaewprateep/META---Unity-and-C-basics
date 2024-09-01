@@ -236,3 +236,20 @@ public class Movement : MonoBehaviour
     }
 }
 ```
+
+### Movement.cs - custom action - visibility - key space ###
+
+```
+public class RendererEnabler : MonoBehaviour
+{
+    // Update is called once per frame
+    void Update()
+    {   
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            var renderer = GetComponent<Renderer>();
+            renderer.enabled = !renderer.enabled;
+        }
+    }
+}
+```
