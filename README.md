@@ -421,3 +421,36 @@ public class MoveForward : MonoBehaviour
     }
 }
 ```
+
+### PlayerController.cs - custom action - position transform - parameterizes ###
+
+```
+public class PlayerController : MonoBehaviour
+{
+    public float horizointalInput;
+    public float speed = 10.0f;
+    public float xRange = 10.0f;
+    private float topBound = 10;
+    private float lowerBound = -10;
+
+    public GameObject projectilePrefab;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (transform.position.x < - xRange)
+        {
+            transform.position = new Vector3( -xRange, transform.position.y, transform.position.z );
+        }
+
+        if (transform.position.x > xRange)
+        {
+            transform.position = new Vector3( xRange, transform.position.y, transform.position.z );
+        } 
+
+        horizointalInput = Input.GetAxis("Horizontal");
+        transform.Translate(Vector3.right * horizointalInput * Time.deltaTime * speed );
+    }
+}
+
+```
