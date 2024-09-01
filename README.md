@@ -1,4 +1,4 @@
-# META---Unity-and-C-basics
+# META - Unity and C# basics
 META - Unity and C# basics
 
 <p align="center" width="100%">
