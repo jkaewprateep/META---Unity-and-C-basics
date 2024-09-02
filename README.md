@@ -377,6 +377,8 @@ public class TestScript : MonoBehaviour
 ### ColorChanger.cs - custom action - property change - collisions ###
 
 🐑💬 ➰ The ```collision``` enter effects method by object property changes and rendering. </br>
+🦭💬 There are multiple ways the object interacts with the game's objects in the game environment by the object position axis, correlation axis, and object correlation. Object ```collision``` is another way to create interaction events that can be handled by the application program in the development platform. </br>
+👧💬 🎈 Game objects in the environment is not create too much ```contrast collision``` if they are not intended by the effects because of the ```actions need purpose``` .  The scene and game environment object created in the simulation environment are aligned by the objective that is determined by the intentional action and ```have feedback that is contained in the game scope``` . </br>
 
 ```
 public class ColorChanger : MonoBehaviour
