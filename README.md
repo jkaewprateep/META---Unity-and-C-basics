@@ -170,6 +170,7 @@ public class AlignObjects: MonoBehaviour
 ### BulletCreator.cs - custom action - key space ###
 
 🐑💬 ➰ Create functions for the model object effects that can recall overall the project. </br> 
+🧸💬 Collection of actions or effects can create as a method function when it can call from an application or working process class object that can save the actions method as they are named as function name or you can name them like ```snowflakes``` or ```ShootBullet``` .</br> 
 
 ```
 public class BulletCreator : MonoBehaviour
