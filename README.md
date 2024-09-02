@@ -284,6 +284,9 @@ public class Movement : MonoBehaviour
 ### Movement.cs - custom action - visibility - key space ###
 
 🐑💬 ➰ Visibility affects application from user keypress interactions. </br>
+👧💬 🎈 Visibility is one tool because we use observation for the objects or players when they have visibility and observation at the same level we can make objects visible they can interact or they can observe makes us different than users where we are not created of new object and balance of the game tradition. </br>
+🐯💬 Monster visibility can be both monster observation ranges and player observation ranges but not over ```spawn rates```. Outscope player observation is none game ```tradition-INFO``` because humans are the game players. </br>
+👧💬 🎈 Sometimes I will need to observe the monster ```observation ranges``` to determine as the game's detective they should not see the player or the player should have ```collection items``` drop from the spawns and observation range if they are human. </br>
 
 ```
 public class RendererEnabler : MonoBehaviour
