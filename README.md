@@ -128,7 +128,7 @@ public class PlatformRotate : MonoBehaviour {
 🐯💬 Visually are the objects aligned with the ```traditional-INFO as references``` object in the environment⁉️ </br> 
 🦁💬 By the object of the environment, source of light, and provided in the science, vertical and horizontal axis we can create a function to determine object enter into the environment. If the object is not aligned with the environment can create effects on users or users create an effect that considers a material object. </br> 
 👧💬 🎈 Example cheating items in-game environment does it prohibited⁉️ </br> 
-🦁💬 Needs to be decided by the game admin and users because that is not aligned with the game's story and the game's traditional. </br> 
+🦁💬 Needs to be decided by the game admin and users because that is not aligned with the game's story and the game's tradition. </br> 
 
 ```
 public class TrackPosition : MonoBehaviour {
@@ -146,6 +146,7 @@ public class TrackPosition : MonoBehaviour {
 ### AlignObjects.cs - custom action - transform position ###
 
 🐑💬 ➰ Transformation is the application of the simple input objects and their effects. </br> 
+🦭💬 Array like property support for the object of the game helps about create programming iteration or programming logic application apply and support of array-like object property is dedicated collection property and create support inheritance method as using ```C# language``` . </br> 
 
 ```
 public class AlignObjects: MonoBehaviour
