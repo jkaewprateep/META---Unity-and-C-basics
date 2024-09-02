@@ -201,6 +201,7 @@ public class BulletCreator : MonoBehaviour
 
 🐑💬 ➰ Remove the object from the domain. </br>
 🐐💬 ➰ Unity build function Destroy for the AR object then you do not need to dispose or create a dedicated function, AR works well in the visualization object and priority tasks ordering even using a bit of computation power. </br>
+🦭💬 There is a hidden truth about the programming we are reading the object on the scene and interacting or directly applying effects we create and need visualization update the ```destroy``` function is a create function that helps update render object results that are faster than iterations update by each item on the scene that is some examples of create function useful from AR. </br>
 
 ```
 public class DestroyOnClick : MonoBehaviour
