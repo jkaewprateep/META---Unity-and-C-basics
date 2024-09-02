@@ -124,6 +124,7 @@ public class PlatformRotate : MonoBehaviour {
 ### Default.cs - custom action - position ###
 
 🐑💬 ➰ Position axis action by incremental of the position value by its symmetric domain. </br> 
+👧💬 🎈 Incremental support when testing the object is originals by the environment using the games environment functions without opening into the class method working is create the incremental function when they are a response to the same environment input and they are limited their action into the boundary, not distracted or create none aligned of reference in the game's environment and they are not left of the environment by the extreme functions they can contain within the environment. `Objects need to be contained within the environment``` .
 
 ```
 public class TrackPosition : MonoBehaviour {
