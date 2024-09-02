@@ -216,6 +216,8 @@ public class DestroyOnClick : MonoBehaviour
 ### ExampleBehaviourScript.cs - custom action - change property - key space ###
 
 🐑💬 ➰ Accepted the key press and performed actions by its conditions to create better effects, change of the object property and render display determined by the ```user key press interactions``` . </br>
+🐯💬 Touch and absolute colours that is a working item. </br>
+🦭💬 It is ready to use, and they need to have behavior when needed or like ```m&M``` they are selling by the software application working when needed and the function will not automatically call by the assignment logic same as the snacks candy. </br>
 
 ```
 public class ExampleBehaviourScript : MonoBehaviour
