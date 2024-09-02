@@ -146,7 +146,9 @@ public class TrackPosition : MonoBehaviour {
 ### AlignObjects.cs - custom action - transform position ###
 
 🐑💬 ➰ Transformation is the application of the simple input objects and their effects. </br> 
-🦭💬 Array like property support for the object of the game helps about create programming iteration or programming logic application apply and support of array-like object property is dedicated collection property and create support inheritance method as using ```C# language``` . </br> 
+🦭💬 Array-like property support for the object of the game helps about create programming iteration or programming logic application apply and support of array-like object property is dedicated collection property and create support inheritance method as using ```C# language``` . </br> 
+🐯💬 Working ```APIs``` level ```culture-INFO``` need to provide an inherited class-like object that supports collections method, references description, numeric data and description, and function return and ops-codes to submitted. </br> 
+🦁💬 That is because users have many levels and they need to access the same resources, the API needs to create and handle support to them with possible methods designed by the API and working function algorithms. </br> 
 
 ```
 public class AlignObjects: MonoBehaviour
