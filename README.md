@@ -246,6 +246,7 @@ public class ExampleBehaviourScript : MonoBehaviour
 ### Movement.cs - custom action - change position - key space ###
 
 🐑💬 ➰ Keypress conditions apply position effect with time and velocity speed, parameterized speed variable. </br>
+🦭💬 The ```Rational buttom``` is add 0.5 dimension by the delay-time pressing work widely and famous and at the beginning of smart mobile phones introduce the games created to support rational button control that makes for the smaller mobile device is a good user experience that they need to create a desire to the action and many games released to the support of the same idea and application when competitive platform define of full control set of user input that is for working as computer plam on hand. </br>
 
 ```
 public class Movement : MonoBehaviour
