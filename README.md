@@ -471,6 +471,7 @@ public class DetectCollisions : MonoBehaviour
 ### MoveForward.cs - custom action - initial speed - parameterizes ###
 
 🐑💬 ➰ Create instance velocity speed movement effects for the assigning object. </br>
+👧💬 🎈 Object force application possible and object not force application are determined when you can make visibility but you do not create instance force because that had the effect, one step further on the ladder that cannot make can create change in the games because of they had designed in the scopes of the game play environment. </br>
 
 ```
 public class MoveForward : MonoBehaviour
