@@ -341,6 +341,8 @@ public class SphereMaker : MonoBehaviour
 ### TestScript.cs - custom action - camera tracking ###
 
 🐑💬 ➰ Camera tracking scripts for object observation or velocity object access the primary object. </br>
+🧸💬 External forces apply to the model object, creating interactions between objects or force created by using ```torque``` apply as force to object property not create static velocity. </br>
+👧💬 🎈 By this method ```torque``` also determines the object alignment because they need to have effects to target action specifically for the effects if there are no effects or the same effects for all of the target actions they are ```not scopes``` or they need ```correct configuration settings``` . </br>
 
 ```
 public class TestScript : MonoBehaviour
