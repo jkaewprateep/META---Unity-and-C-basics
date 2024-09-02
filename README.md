@@ -454,7 +454,8 @@ public class DestroyOutOfBounds : MonoBehaviour
 
 ### DetectCollisionsn.cs - custom action - destroy object - collisions ###
 
-🐑💬 ➰ On ```Collider``` event trigger. </br>
+🐑💬 ➰ On ```Collider``` event trigger and faster than iterations loop by each game object, AR build for your ```Destroy``` function. </br>
+🐯💬 Because of the game's object is ```traditional``` they need to update iterate if you are not use ```Destroy``` function that is same as global dedicate function of the games, this is the idea for removing after effects object from the game environment and not create more effects from priority action such as skills and vision effect. </br>
 
 ```
 public class DetectCollisions : MonoBehaviour
