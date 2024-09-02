@@ -489,6 +489,7 @@ public class MoveForward : MonoBehaviour
 ### PlayerController.cs - custom action - position transform - parameterizes ###
 
 🐑💬 ➰ Apply the effects of position and rotation. </br>
+👧💬 🎈 By the game play the rotation possible by the games function that makes games utilize of the game's resources can create of the game entertainment for player or lacks of action for none-games player. </br>
 
 ```
 public class PlayerController : MonoBehaviour
