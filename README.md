@@ -200,6 +200,7 @@ public class BulletCreator : MonoBehaviour
 ### DestroyOnClick.cs - custom action - destroy object - key space ###
 
 🐑💬 ➰ Remove the object from the domain. </br>
+🐐💬 ➰ Unity build function Destroy for the AR object then you do not need to dispose or create a dedicated function, AR works well in the visualization object and priority tasks ordering even using a bit of computation power. </br>
 
 ```
 public class DestroyOnClick : MonoBehaviour
