@@ -307,6 +307,7 @@ public class RendererEnabler : MonoBehaviour
 
 🐑💬 ➰ Duplicate object for same property object created with target position on the same domain, ```random function``` create distribution effects of the objects created by this function. </br>
 🦭💬 Because of using of new function then you can have a random number without assigning the internal reference number, how you can make use of the random function results is ```unique the answer``` is to use the new function but many people do not understand how can assign of new function to random function and they saying that provide the same result, ```distribution need to have the implementation scopes in the answer``` . </br>
+🐐💬 What happens if the program cannot create a new class by disk space, memory, reference number, logic, and task priority⁉️ They may work on the same class or work as step to procedure or stop working see how difficult of the bug hackers can use they need to understand system behavior and which system will perform an action so they can ```gather the result but administrators do not know or are aware of it```. This happens in small ```micro-applications``` running because of the design but programmers are not aware of how it is different. </br>
 
 ```
 public class SphereMaker : MonoBehaviour
