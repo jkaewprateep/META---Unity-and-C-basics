@@ -427,6 +427,7 @@ public class ColorChanger : MonoBehaviour
 🐑💬 ➰ Range position effects and the debugging for problem resolution. </br>
 👧💬 🎈 By range and position movement needs to be aligned with the game tradition. </br>
 🐐💬 A famous action that programmer and games had strong awareness is when the Sven stun hammer flying from his hand goto the warp portal to the sentinal base by the delay of time that makes Lize can cast her frozen ultimate chains without need to be aware of Magnus because he is under the stun effects at the time. That is most games hacks ever‼️ </br>
+🐑💬 ➰ Debug Game Over!!! ... that is INT become useful again even after hard trying harvest of all strength team and out of the logic of the game.  </br>
 
 ```
 public class DestroyOutOfBounds : MonoBehaviour
