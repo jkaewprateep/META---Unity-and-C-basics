@@ -525,6 +525,7 @@ public class PlayerController : MonoBehaviour
 ### SpawnManager.cs - custom action - spawn range positions - parameterizes ###
 
 🐑💬 ➰ Spawn in range of the object animation, rotation, and delay. </br>
+👧💬 🎈 There is a spwan rated and everyone had been novice before and need to have progress by completed of the quests changing spwan rates may create lack of experience for player. </br>
 
 ```
 public class SpawnManager : MonoBehaviour
