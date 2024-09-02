@@ -124,7 +124,11 @@ public class PlatformRotate : MonoBehaviour {
 ### Default.cs - custom action - position ###
 
 🐑💬 ➰ Position axis action by incremental of the position value by its symmetric domain. </br> 
-👧💬 🎈 Incremental support when testing the object is originals by the environment using the games environment functions without opening into the class method working is create the incremental function when they are a response to the same environment input and they are limited their action into the boundary, not distracted or create none aligned of reference in the game's environment and they are not left of the environment by the extreme functions they can contain within the environment. `Objects need to be contained within the environment``` .
+👧💬 🎈 Incremental support when testing the object is originals by the environment using the games environment functions without opening into the class method working is create the incremental function when they are a response to the same environment input and they are limited their action into the boundary, not distracted or create none aligned of reference in the game's environment and they are not left of the environment by the extreme functions they can contain within the environment. ```Objects need to be contained within the environment``` . </br> 
+🐯💬 Visually are the objects aligned with the ```traditional-INFO as references``` object in the environment⁉️ </br> 
+🦁💬 By the object of the environment, source of light, and provided in the science, vertical and horizontal axis we can create a function to determine object enter into the environment. If the object is not aligned with the environment can create effects on users or users create an effect that considers a material object. </br> 
+👧💬 🎈 Example cheating items in-game environment does it prohibited⁉️ </br> 
+🦁💬 Needs to be decided by the game admin and users because that is not aligned with the game's story and the game's traditional. </br> 
 
 ```
 public class TrackPosition : MonoBehaviour {
